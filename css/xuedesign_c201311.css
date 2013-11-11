@@ -10,7 +10,8 @@
 		  2.1 網站主選單
 		  2.2 完美底部佈局
 		  2.3 內文區塊
-		  2.4 版權列		
+		  2.4 版權列
+		3.客戶服務  		
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -112,4 +113,57 @@ footer{
 	line-height:22px;
 	color:#585757;
 	text-align:center;
-	-webkit-text-size-adjust:none;}			
+	-webkit-text-size-adjust:none}
+
+/* 3. 客戶服務
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+.box_contant{ display:block; width:604px; margin:0 auto}
+.box_contant h2{ display:none}
+.contant_left, .contant_right{ display:block; margin-top:50px;}
+.contant_left{ float:left; width:288px}
+.contant_right{	float:right; width:242px}
+.custome_login{
+	display:block;
+	width:288px;
+	background:#96d0c1;
+	margin-bottom:30px;
+	padding:20px 0}
+.contact_form{
+	display:block;
+	width:288px}
+.custome_login h3, .contact_form h3{
+	display:block;
+	width:288px;
+	height:17px;
+	text-indent:-9999px;
+	margin-bottom:15px}
+.custome_login h3{ background:url(../images/title_custome.png) no-repeat}
+.contact_form h3{ background:url(../images/title_custome.png) 0 -22px no-repeat}
+.custome_login span{ 
+    display: inline-table; 
+	vertical-align:middle; 
+	width:13px; 
+	font-size:1em; 
+	line-height:16px; 
+	color:#FFF;
+	margin-left:32px;
+	padding-right:10px}
+.mytextarea{ border:none; margin-bottom:10px; padding:5px}
+.mytextarea-01{ border:1px solid #b7b6b6; margin-bottom:10px; padding:5px}
+.w180{ width:180px}
+.w250{ width:220px}
+
+.btn_send{
+	display:block;
+	width:214px;
+	background:#595758;
+	margin:15px 0 0 33px;
+	padding:5px 0;
+	border:none;
+	cursor:pointer;
+	color:#96d0c1;
+	letter-spacing:1px}
+.btn_send:hover{ background:#408B78; color:#fff}
+
+.contact_form span{ display: inline-block; width:50px; text-align:right; vertical-align:top}								
