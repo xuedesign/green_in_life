@@ -68,7 +68,7 @@ nav li a{
 .navlist_02{ background:url(../images/nav_content.png) 0 -87px no-repeat}
 .navlist_02:hover, .navlist_02.navin{ background:url(../images/nav_content.png) -82px -87px no-repeat}	
 .navlist_03{ background:url(../images/nav_content.png) 0 -174px no-repeat}
-.navlist_03:hover, .navlist_032.navin{ background:url(../images/nav_content.png) -82px -174px no-repeat}	
+.navlist_03:hover, .navlist_03.navin{ background:url(../images/nav_content.png) -82px -174px no-repeat}	
 .navlist_04{ background:url(../images/nav_content.png) 0 -261px no-repeat}
 .navlist_04:hover, .navlist_04.navin{ background:url(../images/nav_content.png) -82px -261px no-repeat}	
 .navlist_05{ background:url(../images/nav_content.png) 0 -348px no-repeat}
