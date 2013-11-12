@@ -12,6 +12,7 @@
 <!-- InstanceEndEditable -->
 <link rel="stylesheet" href="../../css/reset.css"/>
 <link rel="stylesheet" href="../../css/xuedesign_c201311.css"/>
+<link rel="stylesheet" href="../../css/animate.min.css">
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -24,7 +25,7 @@
 </head>
 
 <body>
-   <div id="wrap">
+   <div id="wrap" class="animated fadeInDown">
       <div id="main_content" class="clearfix">
       
       <header>
@@ -48,7 +49,7 @@
       </header>
       
       <!-- InstanceBeginEditable name="box_main" -->
-      <section id="contenter"> 
+      <section id="contenter">
          <div class="box_contant">
             <h2>客戶服務</h2>
             <div class="contant_left">
@@ -57,26 +58,44 @@
                   <form action="" method="post">
                     <span>帳號</span><input name="id" type="text" class="mytextarea w180"><br/>
                     <span>密碼</span><input name="password" type="password" class="mytextarea w180">
-                    <input name="btn_send" type="submit" class="btn_send" value="確認" onclick="javascript:location.href='project-01.html';">
+                    <input name="btn_send" type="button" class="btn_send" value="確認" onclick="javascript:location.href='project-01.html';">
                   </form>
                </div>
                
                <div class="contact_form">
-                  <h3>合作諮詢</h3>
+                  <h3>客戶諮詢</h3>
                  <form action="" method="post">
                      <span>姓名：</span><input name="name" type="text" class="mytextarea-01 w250"><br/>
                      <span>Emial：</span><input name="email" type="text" class="mytextarea-01 w250">
                      <span>訊息：</span><textarea name="message" cols="50" rows="3" class="mytextarea-01 w250"></textarea>
-                     <div>│<input name="submit" type="submit" value="送出">│<input name="reset" type="reset"  value="清除">│</div>
+                     <div class="down_btn">│<input name="submit" type="submit" class="btn_white" value="送出">│<input name="reset" type="reset" class="btn_white" value="清除">│</div>
                   </form>
                </div>
             </div>
             
             <div class="contant_right">
                <ul>
-               	<li></li>
-               	<li></li>
-               	<li></li>
+               	<li>
+                   <h4>發展室─企業合作、非都更合作諮詢</h4>
+                   <p>邱主任<br />
+                      電話：02-6600-3688#106<br />
+                      e-mail：<a href="maito:avitachiu@in-life.com.tw" title="聯絡邱主任">avitachiu@in-life.com.tw</a>
+                   </p>
+                </li>
+               	<li>
+                   <h4>開發部─都市更新合作諮詢</h4>
+                   <p>華經理<br />
+                      電話：02-6600-3688#207<br />
+                      e-mail：<a href="maito:tom@in-life.com.tw" title="連絡華經理">tom@in-life.com.tw</a>
+                   </p>
+                </li>
+               	<li>
+                   <h4>行銷部─耕薪銷售個案諮詢</h4>
+                   <p>張經理<br />
+                      電話：02-6600-3688#801<br />
+                      e-mail：<a href="maito:ctf@in-life.com.tw" title="聯絡張經理">ctf@in-life.com.tw</a>
+                   </p>
+                </li>
                </ul>
             </div>
             <br class="clean"/ >

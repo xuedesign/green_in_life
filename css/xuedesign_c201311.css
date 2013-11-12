@@ -11,7 +11,9 @@
 		  2.2 完美底部佈局
 		  2.3 內文區塊
 		  2.4 版權列
-		3.客戶服務  		
+		3.客戶服務
+		  3.1 聯絡資訊
+		  3.2 客戶專區  		
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -96,8 +98,8 @@ body > #wrap {height: auto; min-height: 100%;}
 	/*min-height:485px;*/ 
 	margin:0 auto 20px auto;  
 	padding-top:179px;
-	font-size:0.813em;
-	line-height:22px}				
+	/*font-size:0.813em;
+	line-height:22px*/}				
 	
 /*2.4 版權列---------------------------*/	
 footer{ 
@@ -118,11 +120,27 @@ footer{
 /* 3. 客戶服務
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
-.box_contant{ display:block; width:604px; margin:0 auto}
-.box_contant h2{ display:none}
+.box_contant{ display:block; width:632px; margin:0 auto}
+.box_contant-02{ display:block; width:850px; margin:0 auto; /*padding-right:30px*/}
+.box_contant h2; .box_contant-02 h2{ display:none}
+.box_contant-02 .title_01{
+	font-size:1.5em;
+	line-height:35px;
+	color:#B4B4B5;
+	text-align:right;
+	font-weight: normal;
+	margin:10px 0 28px 0;
+	padding:0 15px 0 0}
+.box_contant-02 .title_01 span{	font-size:0.6em; vertical-align:text-bottom; padding-left:15px}	
+.box_contant-02 .title_01 a{ text-decoration:none; color:#595758}	
+.box_contant-02 .title_01 a:hover{ text-decoration:none; color:#f50}
+	
+/*3.1 聯絡資訊---------------------------*/		
 .contant_left, .contant_right{ display:block; margin-top:50px;}
 .contant_left{ float:left; width:288px}
-.contant_right{	float:right; width:242px}
+.contant_right{	float:right; width:270px}
+.contant_left-02{ float:left; width:520px}
+.contant_right-02{ float:right; width:270px; margin:0 30px 0 0}
 .custome_login{
 	display:block;
 	width:288px;
@@ -139,16 +157,18 @@ footer{
 	text-indent:-9999px;
 	margin-bottom:15px}
 .custome_login h3{ background:url(../images/title_custome.png) no-repeat}
-.contact_form h3{ background:url(../images/title_custome.png) 0 -22px no-repeat}
 .custome_login span{ 
     display: inline-table; 
 	vertical-align:middle; 
 	width:13px; 
-	font-size:1em; 
+	font-size:0.813em; 
 	line-height:16px; 
 	color:#FFF;
 	margin-left:32px;
 	padding-right:10px}
+.contact_form h3{ background:url(../images/title_custome.png) 0 -22px no-repeat}
+.contact_form span{ font-size:0.813em}
+
 .mytextarea{ border:none; margin-bottom:10px; padding:5px}
 .mytextarea-01{ border:1px solid #b7b6b6; margin-bottom:10px; padding:5px}
 .w180{ width:180px}
@@ -166,4 +186,80 @@ footer{
 	letter-spacing:1px}
 .btn_send:hover{ background:#408B78; color:#fff}
 
-.contact_form span{ display: inline-block; width:50px; text-align:right; vertical-align:top}								
+.contact_form span{ display: inline-block; width:50px; text-align:right; vertical-align:top}
+.down_btn{ display:block; padding-left:45px; color:#888888}
+.btn_white{
+	display:inline-block;
+	background:none;
+	border:none;
+	cursor:pointer;
+	color:#888888}
+.btn_white:hover{ color:#f50}
+
+.contant_right ul{}
+.contant_right li{
+	display:block;
+	width:250px;
+	min-height:90px;
+	background:url(../images/bg_greenline.png) repeat-y;
+	margin-bottom:40px;
+	padding-left:20px}
+.contant_right li h4{ font-size:0.938em; color:#999; padding-bottom:5px}
+.contant_right li p{ font-size:0.813em; line-height:22px}
+
+/*3.2 客戶專區---------------------------*/	
+.contant_right-02 .btn_vcr{
+	display:block;
+	width:290px;
+	background:#96d0c1;
+	font-size:0.813em;
+	line-height:28px;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	margin-bottom:25px}
+.contant_right-02 .btn_vcr:hover{ background:#595758; color:#96d0c1}
+.info_pay{ 
+    display:block;
+	width:258px;
+	border:1px solid #96d0c1;
+	padding:10px 15px;
+	margin-bottom:25px}
+.info_pay h3{ 
+    font-size:1em; 
+	color:#96d0c1; 
+	line-height:35px; 
+	border-bottom:1px solid #96d0c1; 
+	text-align:center}
+.info_pay ul{ display:block; padding-top:15px}
+.info_pay li{
+	font-size:0.813em;
+	line-height:20px;
+	color:#595758;
+	padding:5px 0 5px 10px}
+.contant_left-02 h3{
+	display:block;
+	width:520px;
+	background:#96d0c1;
+	font-size:0.813em;
+	line-height:28px;
+	text-align:center;
+	color:#FFF;
+	margin-bottom:26px}
+.working_photo{
+	display:block;
+	float:left;
+	width:275px;
+	margin-bottom:18px}
+.working_photo img{ margin-left:8px}	
+.working_photo a{ border:none; text-decoration:none}	
+.working_text{
+	display:block;
+	float:right;
+	width:240px;
+	height:44px;
+	overflow:hidden;
+	font-size:0.813em;
+	line-height:22px}			
+	
+									
