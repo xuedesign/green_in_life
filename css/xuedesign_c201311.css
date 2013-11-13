@@ -42,7 +42,7 @@ header{
 	position:fixed;
 	width:100%;
 	height:179px;
-	background:url(../images/bg_content.png) repeat-x}	
+	background:url(../image/bg_content.png) repeat-x}	
 	
 /*2.1 網站主選單---------------------------*/	
 nav{ display:block; width:850px; margin:0 auto}
@@ -51,9 +51,9 @@ a.btn_home{
 	float:left;
 	width:26px;
 	height:150px;
-	background:url(../images/btn_home.png) no-repeat;
+	background:url(../image/btn_home.png) no-repeat;
 	text-indent:-9999px}
-a.btn_home:hover{ background:url(../images/btn_home.png) -26px 0 no-repeat}
+a.btn_home:hover{ background:url(../image/btn_home.png) -26px 0 no-repeat}
 nav ul{ display:block; padding-top:63px}		
 nav li a{
 	display:block;
@@ -63,20 +63,20 @@ nav li a{
 	margin-left:34px;
 	overflow:hidden;
 	text-indent:-9999px}
-.navlist_01{ background:url(../images/nav_content.png) no-repeat}
-.navlist_01:hover, .navlist_01.navin{ background:url(../images/nav_content.png) -82px 0 no-repeat}
-.navlist_02{ background:url(../images/nav_content.png) 0 -87px no-repeat}
-.navlist_02:hover, .navlist_02.navin{ background:url(../images/nav_content.png) -82px -87px no-repeat}	
-.navlist_03{ background:url(../images/nav_content.png) 0 -174px no-repeat}
-.navlist_03:hover, .navlist_03.navin{ background:url(../images/nav_content.png) -82px -174px no-repeat}	
-.navlist_04{ background:url(../images/nav_content.png) 0 -261px no-repeat}
-.navlist_04:hover, .navlist_04.navin{ background:url(../images/nav_content.png) -82px -261px no-repeat}	
-.navlist_05{ background:url(../images/nav_content.png) 0 -348px no-repeat}
-.navlist_05:hover, .navlist_05.navin{ background:url(../images/nav_content.png) -82px -348px no-repeat}	
-.navlist_06{ background:url(../images/nav_content.png) 0 -435px no-repeat}
-.navlist_06:hover, .navlist_06.navin{ background:url(../images/nav_content.png) -82px -435px no-repeat}	
-.navlist_07{ background:url(../images/nav_content.png) 0 -522px no-repeat}
-.navlist_07:hover, .navlist_07.navin{ background:url(../images/nav_content.png) -82px -522px no-repeat}							
+.navlist_01{ background:url(../image/nav_content.png) no-repeat}
+.navlist_01:hover, .navlist_01.navin{ background:url(../image/nav_content.png) -82px 0 no-repeat}
+.navlist_02{ background:url(../image/nav_content.png) 0 -87px no-repeat}
+.navlist_02:hover, .navlist_02.navin{ background:url(../image/nav_content.png) -82px -87px no-repeat}	
+.navlist_03{ background:url(../image/nav_content.png) 0 -174px no-repeat}
+.navlist_03:hover, .navlist_03.navin{ background:url(../image/nav_content.png) -82px -174px no-repeat}	
+.navlist_04{ background:url(../image/nav_content.png) 0 -261px no-repeat}
+.navlist_04:hover, .navlist_04.navin{ background:url(../image/nav_content.png) -82px -261px no-repeat}	
+.navlist_05{ background:url(../image/nav_content.png) 0 -348px no-repeat}
+.navlist_05:hover, .navlist_05.navin{ background:url(../image/nav_content.png) -82px -348px no-repeat}	
+.navlist_06{ background:url(../image/nav_content.png) 0 -435px no-repeat}
+.navlist_06:hover, .navlist_06.navin{ background:url(../image/nav_content.png) -82px -435px no-repeat}	
+.navlist_07{ background:url(../image/nav_content.png) 0 -522px no-repeat}
+.navlist_07:hover, .navlist_07.navin{ background:url(../image/nav_content.png) -82px -522px no-repeat}							
 	
 /*2.2 完美底部佈局---------------------------*/
 html, body, #wrap {height: 100%;}
@@ -107,7 +107,7 @@ footer{
     position: relative;
     width:100%;
 	height:56px;
-    background: url(../images/bg_cfooter.png) repeat-x;
+    background: url(../image/bg_cfooter.png) repeat-x;
     margin-top: -56px}		
 .copyright{
 	padding-top:5px;
@@ -156,7 +156,7 @@ footer{
 	height:17px;
 	text-indent:-9999px;
 	margin-bottom:15px}
-.custome_login h3{ background:url(../images/title_custome.png) no-repeat}
+.custome_login h3{ background:url(../image/title_custome.png) no-repeat}
 .custome_login span{ 
     display: inline-table; 
 	vertical-align:middle; 
@@ -166,7 +166,7 @@ footer{
 	color:#FFF;
 	margin-left:32px;
 	padding-right:10px}
-.contact_form h3{ background:url(../images/title_custome.png) 0 -22px no-repeat}
+.contact_form h3{ background:url(../image/title_custome.png) 0 -22px no-repeat}
 .contact_form span{ font-size:0.813em}
 
 .mytextarea{ border:none; margin-bottom:10px; padding:5px}
@@ -201,7 +201,7 @@ footer{
 	display:block;
 	width:250px;
 	min-height:90px;
-	background:url(../images/bg_greenline.png) repeat-y;
+	background:url(../image/bg_greenline.png) repeat-y;
 	margin-bottom:40px;
 	padding-left:20px}
 .contant_right li h4{ font-size:0.938em; color:#999; padding-bottom:5px}
