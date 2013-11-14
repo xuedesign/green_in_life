@@ -13,7 +13,9 @@
 		  2.4 版權列
 		3.客戶服務
 		  3.1 聯絡資訊
-		  3.2 客戶專區  		
+		  3.2 客戶專區
+		4.最新消息
+		     		
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -260,6 +262,31 @@ footer{
 	height:44px;
 	overflow:hidden;
 	font-size:0.813em;
-	line-height:22px}			
-	
-									
+	line-height:22px}
+
+/* 4. 最新消息
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/				
+/*4.1 法令訊息---------------------------*/
+.laws_list{ display:block; width:760px; padding-left:90px}
+.laws_list li{ 
+    font-size:1em; 
+	line-height:25px; 
+	list-style:decimal outside; 
+	color:#77C9B3;
+	padding:5px 0}
+.laws_list a, .laws_list a:visited{color:#77C9B3; text-decoration:none}
+.laws_list a:hover{text-decoration:none; color:#F50}
+.turn_page{
+	width:100%;
+	text-align:center;
+	margin-top:60px}
+.turn_page li{ display: inline}	
+.turn_page a{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	margin: 0 10px;
+	text-indent:-9999px;
+	background:url(../image/btn_page.png) no-repeat}
+.turn_page a:hover, .turn_page .page_in{background:url(../image/btn_page.png) -20px 0 no-repeat}		
