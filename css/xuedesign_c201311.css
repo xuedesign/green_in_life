@@ -17,7 +17,8 @@
 		4.最新消息
 		  4.1 連結列表
 		  4.2 新聞區塊
-		5.    
+		5.內文區塊
+		  5.1 簡介    
 		     		
 ***********************************************************************************************/
 
@@ -307,4 +308,46 @@ footer{
 	font-size:0.813em;
 	line-height:22px;}
 .news_right{ width:516px}
+
+/* 5. 內文區塊
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/				
+/*5.1 簡介---------------------------*/
+.box_prefile{ display:block; width:850px}
+.profile_left, .profile_right{ display:block; float:left}
+.profile_left{ width:345px; padding-left:80px}
+.profile_right{ width:355px; padding:0 30px 0 40px}
+.box_prefile h4{
+	font-size:1em;
+	line-height:30px;
+	font-weight:normal;
+	color:#77C9B3}
+.box_prefile p{ font-size:0.813em; line-height:22px}
+.box_prefile img{ margin:20px 8px 0 0}
+
+.prefile_list h4{
+	font-size:1.25em;
+	line-height:30px;
+	color:#77C9B3;
+	font-weight:normal;
+	text-align:center;
+	padding:20px 0 10px}
+.prefile_list ul{
+	display:block;
+	width:800px;
+	padding: 0 0 0 50px}
+.prefile_list li{ 
+    display:inline-block;
+	width:143px;
+	height:143px;
+	text-indent:-9999px;
+	margin-right:13px}
+.prefile_list .info_list-01{ background:url(../image/bg_profile-list.png) no-repeat}
+.prefile_list .info_list-02{ background:url(../image/bg_profile-list.png) 0 -143px no-repeat}
+.prefile_list .info_list-03{ background:url(../image/bg_profile-list.png) 0 -286px no-repeat}
+.prefile_list .info_list-04{ background:url(../image/bg_profile-list.png) 0 -429px no-repeat}
+.prefile_list .info_list-05{ background:url(../image/bg_profile-list.png) 0 -572px no-repeat}
+
+
+
 		
