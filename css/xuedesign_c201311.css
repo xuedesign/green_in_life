@@ -43,10 +43,12 @@ image{border:0}
 /* 2. 版型  
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
+#wrap{ display:block; width:100%}
 h1, h2{ display:none}
 header{
 	display:block;
 	position:fixed;
+	z-index:8010;
 	width:100%;
 	height:179px;
 	background:url(../image/bg_content.png) repeat-x}	
@@ -365,6 +367,38 @@ footer{
 	color:#FFF;
 	text-shadow: 0 0 5px #2E5E51}
 
-
-
-		
+/*5.3 組織架構---------------------------*/	
+.box_company{ display:block; position:relative; width:891px; margin:0 auto}
+#vtip{ 
+    display:none; 
+	position:absolute; 
+	padding:10px; 
+	left:5px; 
+	font-size:0.813em; 
+	background-color:white; 
+	border:1px solid #77C9B3; 
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	z-index:9999 }
+#vtip #vtipArrow { position:absolute; top:-10px; left:5px }
+.tipp-b, .tipp-s{ 
+    display:block;
+	position:absolute;
+	width:30px;
+	height:30px;
+	text-indent:-9999px;
+	cursor:pointer}
+.tipp-b{ background:url(../image/btn_info.png) no-repeat}
+.tipp-s{ background:url(../image/btn_info.png) 0 -30px no-repeat}
+.info_01{ top:220px; left:95px}
+.info_02{ top:75px; left:248px}
+.info_03{ top:190px; left:408px}
+.info_04{ top:75px; left:490px}
+.info_05{ top:320px; left:357px}
+.info_06{ top:160px; left:667px}
+.info_07{ top:200px; left:761px}
+.info_08{ top:270px; left:797px}
+.info_09{ top:352px; left:780px}
+.info_10{ top:410px; left:718px}
+.info_11{ top:413px; left:625px}
+.info_12{ top:348px; left:548px}		

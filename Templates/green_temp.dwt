@@ -25,7 +25,7 @@
 </head>
 
 <body>
-   <div id="wrap" class="animated fadeInDown">
+   <div id="wrap">
       <div id="main_content" class="clearfix">
       
       <header>
