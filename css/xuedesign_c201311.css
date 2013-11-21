@@ -210,7 +210,7 @@ footer{
 .contant_right li{
 	display:block;
 	width:250px;
-	min-height:90px;
+	min-height:70px/*90px*/;
 	background:url(../image/bg_greenline.png) repeat-y;
 	margin-bottom:40px;
 	padding-left:20px}
@@ -268,10 +268,10 @@ footer{
 	display:block;
 	float:right;
 	width:240px;
-	height:44px;
-	overflow:hidden;
-	font-size:0.813em;
-	line-height:22px}
+	height:60px;
+	overflow:hidden}
+.working_text h4{ font-size:0.938em; font-weight:bold}
+.working_text p, .working_text time{font-size:0.813em; line-height:18px}	
 
 /* 4. 最新消息
 -----------------------------------------------------------------------------------------------
@@ -316,7 +316,10 @@ footer{
 
 /* 5. 內文區塊
 -----------------------------------------------------------------------------------------------
-===============================================================================================*/				
+===============================================================================================*/
+.poset{ position:relative}
+.poab{ position:absolute; bottom:-50%}
+				
 /*5.1 簡介---------------------------*/
 .box_prefile{ display:block; width:850px}
 .profile_left, .profile_left-02, .profile_right, .profile_right-02{ display:block; float:left}
