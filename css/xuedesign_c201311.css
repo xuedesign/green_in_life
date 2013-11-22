@@ -19,7 +19,9 @@
 		  4.2 新聞區塊
 		5.內文區塊
 		  5.1 簡介
-		  5.2 耕薪價值     
+		  5.2 耕薪價值
+		  5.3 組織架構
+		  5.4 企業活動     
 		     		
 ***********************************************************************************************/
 
@@ -317,8 +319,6 @@ footer{
 /* 5. 內文區塊
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
-.poset{ position:relative}
-.poab{ position:absolute; bottom:-50%}
 				
 /*5.1 簡介---------------------------*/
 .box_prefile{ display:block; width:850px}
@@ -407,4 +407,40 @@ footer{
 .info_09{ top:352px; left:780px}
 .info_10{ top:410px; left:718px}
 .info_11{ top:413px; left:625px}
-.info_12{ top:348px; left:548px}		
+.info_12{ top:348px; left:548px}
+
+/*5.4 企業活動---------------------------*/
+#page_main{display:block; width:954px; margin:0 auto}
+.sub_nav{ display:block; width:954px}   
+.btn_arror-l, .btn_arror-r{
+   display:block;
+   float:left;
+   width:18px;
+   height:40px;
+   background:url(../image/btn_arror.png) no-repeat;
+   text-indent:-9999px;}
+.btn_arror-l{ background-position: 0 0; margin-right:95px}
+.btn_arror-l:hover, .btn_arror-l.navin{ background-position: 0 -40px}
+.btn_arror-r{ background-position: -18px 0; margin-left:24px/*83px*/}
+.btn_arror-r:hover, .btn_arror-r.navin{ background-position: -18px -40px}
+.box_nav{ display:block; float:left; width:785px/*728px*/; height:40px; overflow:hidden}
+.box_nav a{
+	display:block;
+	float:left;
+	width:147px;
+	height:20px;
+	border-left:1px solid #BFBFBF; 
+	font-size:0.938em;
+	line-height:20px;
+	color:#888;
+	padding:10px 0 0 5px;
+	text-decoration:none;
+	overflow:hidden}
+.box_nav a:hover, .box_nav a.navin{ 
+    height:20px;
+	border-left:1px solid #000;
+	font-weight:bold; 
+	color:#000; 
+	padding-top:20px}		
+	
+					
