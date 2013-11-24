@@ -411,7 +411,7 @@ footer{
 
 /*5.4 企業活動---------------------------*/
 #page_main{display:block; width:954px; margin:0 auto}
-.sub_nav{ display:block; width:954px}   
+.sub_nav, #page_content{ display:block; width:954px}   
 .btn_arror-l, .btn_arror-r{
    display:block;
    float:left;
@@ -427,9 +427,10 @@ footer{
 .box_nav a{
 	display:block;
 	float:left;
-	width:147px;
-	height:20px;
-	border-left:1px solid #BFBFBF; 
+	width:184px/*147px*/;
+	height:30px;
+	/*border-left:1px solid #BFBFBF;*/
+	background: url(../image/bg_navline.png) no-repeat;
 	font-size:0.938em;
 	line-height:20px;
 	color:#888;
@@ -438,9 +439,60 @@ footer{
 	overflow:hidden}
 .box_nav a:hover, .box_nav a.navin{ 
     height:20px;
-	border-left:1px solid #000;
+	background: url(../image/bg_navline.png) 0 -40px no-repeat;
+	/*border-left:1px solid #000;*/
 	font-weight:bold; 
 	color:#000; 
-	padding-top:20px}		
+	padding-top:20px}
+
+#page_content{ margin-top:38px}
+.box_photo{
+	display:block;
+	float:left;
+	width:746px}
+.box_bar{
+	display:block;
+	float:right;
+	width:208px}
+#scrollbar { display:block; width:208px}
+#scrollbar .viewport { position: relative; width: 193px; height:378px; overflow: hidden;}
+#scrollbar .overview { position: absolute; list-style: none; left: 0; top: 0; padding: 10px 0 0 10px; margin: 0; }
+#scrollbar .scrollbar{
+	position: relative;
+	float: left;
+	width: 15px;   
+    background: transparent url(../image/bg-scrollbar-track-y.png) no-repeat 0 0; 
+	background-position: 0 0}
+#scrollbar .track { 
+    background: transparent url(../image/bg-scrollbar-trackend-y.png) no-repeat 0 100%; 
+	height: 100%; 
+	width:13px; 
+	position: relative; 
+	padding: 0 1px; }
+#scrollbar .thumb { 
+    background: transparent url(../image/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 25px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; }
+#scrollbar .thumb .end { 
+    background: transparent url(../image/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 25px; }
+#scrollbar .disable { display: none}
+
+.event_list{
+	display:block;
+	width:180px;
+	min-height:370px;}
+.item_photo,.item_title{ display:block; float:left; margin-bottom:25px}	
+.item_photo{ width:90px;}
+.event_list a>.item_title{width:80px; height:52px; margin-top:3px; background:#e0e0e3; overflow:hidden; padding:5px; color:#333}
+.event_list a:hover>.item_title, .eventin a>.item_title{background:#888; color:#fff; cursor:pointer}
+.item_title p{ font-size:0.813em; line-height:16px}			
 	
 					
