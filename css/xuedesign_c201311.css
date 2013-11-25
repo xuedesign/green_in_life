@@ -449,13 +449,65 @@ footer{
 .box_photo{
 	display:block;
 	float:left;
-	width:746px}
+	width:700px;
+	padding:0 33px 30px 13px}
+.box_thumbs{
+	display:block;
+	float:left;
+	position:relative;
+	width:109px;
+	min-height:300px;
+	margin-right:16px;
+	padding:0 3px 0 6px}
+.box_thumbs h3{
+	font-size:0.938em;
+	line-height:22px;
+	color:#7ACEB4;
+	padding-bottom:15px}	
+.box_thumbs a{
+	display:inline-block;
+	width:46px;
+	height:46px;
+	margin:0 3px 15px 3px}
+.box_thumbs a img{
+	width:42px;
+	height:42px;
+	vertical-align:middle;
+	padding:1px;
+	border:1px solid #ccc}
+.box_thumbs a:focus img{ border:1px solid #333; background:#000}
+.page_number{
+	display:block;
+	position:absolute;
+	top:400px;
+	left:0;
+    width:104px;
+	padding-left:5px}
+.page_number a{
+	display:inline-table;
+	width:13px;
+	height:13px;
+	padding:2px 2px 2px 5px;
+	border:1px ridge #7ACEB4;
+	font-size:0.813em;
+	line-height:18px;
+	color:#7ACEB4;
+	font-weight:bold;
+	vertical-align:middle;
+	text-decoration:none}
+.page_number a:hover, .page_number a.page_in{ background:#7ACEB4; color:#FFF}
+	
+.box_showpic{
+	display:block;
+	float:right;
+	width:566px}	
+	
 .box_bar{
 	display:block;
 	float:right;
 	width:208px}
 #scrollbar { display:block; width:208px}
-#scrollbar .viewport { position: relative; width: 193px; height:378px; overflow: hidden;}
+#scrollbar .viewport { position: relative; width: 193px; height: 425px/*378px*/; overflow: hidden;}
 #scrollbar .overview { position: absolute; list-style: none; left: 0; top: 0; padding: 10px 0 0 10px; margin: 0; }
 #scrollbar .scrollbar{
 	position: relative;

@@ -54,7 +54,7 @@
              
              <!-- 副選單列，一列最多顯示4個，超出的會被隱藏，但每按箭頭前進或後退，第一個選項要跟著變動 -->
              <div class="sub_nav">
-                <a href="#" title="上一章" class="btn_arror-l navin">上一章</a>
+                <a href="#" title="上一年度" class="btn_arror-l navin">上一年度</a>
                 <div class="box_nav">
                   <a href="event_2011-01.html" class="navin" title="2011">2011</a>
                   <a href="event_2012-01.html" title="2012">2012</a>
@@ -62,15 +62,44 @@
                   <a href="#" title="2014">2014</a>
                   <a href="#" title="2015">2015</a>
                 </div>  
-                <a href="event_2012-01.html" title="下一章" class="btn_arror-r">下一章</a>
+                <a href="event_2012-01.html" title="下一年度" class="btn_arror-r">下一年度</a>
                 <br class="clean" />
              </div>
              
              <div id="page_content">
+             
+               <!-- 照片展示區塊 -->
                <div class="box_photo">
                
+                  <!-- 縮圖區 -->
+                  <script src="../../scripts/showpic.js"></script> 
+                  <div class="box_thumbs">
+                     <h3>2011公司尾牙-大溪攝影外拍</h3><!-- 群組標題 -->
+                     <!-- 一頁預設10張照片 ，若上傳張數超過10張，下面會出現頁碼供切換-->
+                     <a href="../../image/P1130117.jpg"><img src="../../image/P1130117.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130126.jpg"><img src="../../image/P1130126.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130135.jpg"><img src="../../image/P1130135.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130117.jpg"><img src="../../image/P1130117.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130126.jpg"><img src="../../image/P1130126.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130135.jpg"><img src="../../image/P1130135.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130117.jpg"><img src="../../image/P1130117.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130126.jpg"><img src="../../image/P1130126.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130135.jpg"><img src="../../image/P1130135.jpg" title="照片名稱" /></a>
+                     <a href="../../image/P1130117.jpg"><img src="../../image/P1130117.jpg" title="照片名稱" /></a>
+                     
+                     <div class="page_number"><!-- 頁碼，當張數超過10張才會出現 -->
+                        <a href="#" title="第1頁" class="page_in">1</a>
+                        <a href="#" title="第2頁">2</a>
+                     </div>
+                  </div>
+                  
+                  <!-- 大圖區 ，建議寬度不超過566px-->
+                  <div class="box_showpic"><img id="show-image" src="../../image/P1130117.jpg" alt="*"/></div>
+                  <br class="clean"/>
                </div>
                
+               
+               <!-- 右側縮圖區塊 -->
                <script src="../../scripts/jquery.tinyscrollbar.min.js"></script>
 			   <script>
                   $(document).ready(function(){
@@ -139,6 +168,20 @@
                                  <br class="clean"/>
                                </a>
                             </li>
+                            
+                            <li><!-- 一個LI為一組縮圖,在該頁面時，要加註"eventin" -->
+                               <a href="event_2011-01.html" title="2011公司尾牙-大溪攝影外拍">
+                                 <div class="item_photo">
+                                   <img src="../../image/P1130117.jpg" width="90" height="68" alt="*"><!-- 尺寸固定 改路徑就好了-->
+                                 </div>
+                                 <div class="item_title">
+                                    <p>2011<br/><!-- 這邊縮圖標題的格式不固定，但有需要折行，你覺得該如何讓使用者輸入較好? -->
+                                       公司尾牙-<br/>
+                                       大溪攝影外拍</p>
+                                 </div>
+                                 <br class="clean"/>
+                               </a>
+                            </li>
                           </ul>
                        
                        
@@ -150,6 +193,7 @@
              
          </div>
       </section>
+      
       <!-- InstanceEndEditable -->
       
       </div>
