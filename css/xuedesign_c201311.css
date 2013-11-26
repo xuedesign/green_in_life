@@ -21,7 +21,8 @@
 		  5.1 簡介
 		  5.2 耕薪價值
 		  5.3 組織架構
-		  5.4 企業活動     
+		  5.4 企業活動
+		  5.5 業績作品     
 		     		
 ***********************************************************************************************/
 
@@ -420,9 +421,9 @@ footer{
    background:url(../image/btn_arror.png) no-repeat;
    text-indent:-9999px;}
 .btn_arror-l{ background-position: 0 0; margin-right:95px}
-.btn_arror-l:hover, .btn_arror-l.navin{ background-position: 0 -40px}
+.btn_arror-l:hover, .btn_arror-l.disabled{ background-position: 0 -40px}
 .btn_arror-r{ background-position: -18px 0; margin-left:24px/*83px*/}
-.btn_arror-r:hover, .btn_arror-r.navin{ background-position: -18px -40px}
+.btn_arror-r:hover, .btn_arror-r.disabled{ background-position: -18px -40px}
 .box_nav{ display:block; float:left; width:785px/*728px*/; height:40px; overflow:hidden}
 .box_nav a{
 	display:block;
@@ -446,7 +447,7 @@ footer{
 	padding-top:20px}
 
 #page_content{ margin-top:38px}
-.box_photo{
+.box_photo, .box_buinfo{
 	display:block;
 	float:left;
 	width:700px;
@@ -506,7 +507,7 @@ footer{
 	display:block;
 	float:right;
 	width:208px}
-#scrollbar { display:block; width:208px}
+#scrollbar { display:block; width:208px; background:url(../image/bg_grayline.png) no-repeat}
 #scrollbar .viewport { position: relative; width: 193px; height: 425px/*378px*/; overflow: hidden;}
 #scrollbar .overview { position: absolute; list-style: none; left: 0; top: 0; padding: 10px 0 0 10px; margin: 0; }
 #scrollbar .scrollbar{
@@ -545,6 +546,17 @@ footer{
 .item_photo{ width:90px;}
 .event_list a>.item_title{width:80px; height:52px; margin-top:3px; background:#e0e0e3; overflow:hidden; padding:5px; color:#333}
 .event_list a:hover>.item_title, .eventin a>.item_title{background:#888; color:#fff; cursor:pointer}
-.item_title p{ font-size:0.813em; line-height:16px}			
+.item_title p{ font-size:0.813em; line-height:16px}
+
+/*5.5 業績作品---------------------------*/
+.buinfo_left, .buinfo_right{ display:block; float:left}
+.buinfo_left{ width:277px; margin-right:23px}
+.buinfo_right{ width:400px}
+.buinfo_left h3{
+	font-size:1.125em;
+	line-height:22px;
+	color:#7ACEB4;
+	padding-bottom:15px}
+.buinfo_left p{ font-size:0.813em; line-height:22px; padding-bottom:15px}		
 	
 					

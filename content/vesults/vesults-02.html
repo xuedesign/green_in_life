@@ -50,15 +50,79 @@
       
       <!-- InstanceBeginEditable name="box_main" -->
       <section id="contenter" class="animated fadeInDown"> 
-          <div style=" display:block; width:954px; margin:0 auto"><!-- 頁面預覽 -->
-              <img src="../../image/pre_vesults01-01.jpg" alt="*" width="954" height="496" usemap="#Map">
-              <map name="Map">
-                <area shape="rect" coords="122,4,325,53" href="vesults-01.html">
-                <area shape="rect" coords="337,3,498,53" href="vesults-02.html">
-                <area shape="rect" coords="766,82,953,208" href="vesults-02.html">
-                <area shape="rect" coords="764,214,952,337" href="vesults-01.html">
-                <area shape="rect" coords="3,4,29,26" href="vesults-01.html">
-              </map> 
+          <div id="page_main">
+             
+             <!-- 副選單列，一列最多顯示4個，超出的會被隱藏，但每按箭頭前進或後退，第一個選項要跟著變動 -->
+             <div class="sub_nav">
+                <a href="#" title="上一年度" class="btn_arror-l disabled">上一作品</a><!-- disabled代表不可使用之狀態 -->
+                <div class="box_nav">
+                  <a href="event_2011-01.html" title="2011">2009</a>
+                  <a href="event_2013-01.html" class="navin" title="2013">2013</a><!-- navin代表在目前單元 -->
+                </div>  
+                <a href="event_2012-01.html" title="下一年度" class="btn_arror-r disabled">下一作品</a>
+                <br class="clean" />
+             </div>
+             
+             <div id="page_content">
+                <!-- 左側內文區 -->
+               <div class="box_buinfo">
+                 <div class="buinfo_left">
+                      <h3>基本資料</h3>
+                      <p>基地位置：羅斯福路、浦城街口<br/>
+                         基地面積：550坪<br/>
+                         建築規劃：25F/5F<br/>
+                         建築師：李天鐸、邑相聯合建築師事務所<br/>
+                         營造廠：福住營造</p>
+                      <h3>設計理念</h3>
+                      <p>建築有著實體性與精神性的雙重對話<br/>
+                         基地周邊有師大、台大和許多中小學<br/>
+                         結合當地環境紋理、住宅符號和空間文化特質<br/>
+                         把這個區塊的人文氛圍轉換到整個建築量體上<br/>
+                         所以用一個「書牆」的概念，展現出文人的書卷氣
+                         崁出「藏書閣」般的知識載體<br/>
+                         乘載著不同書及與文化內涵<br/>
+                         並且用最安靜的方式潛藏自己。
+                      </p>
+                   </div>
+                   <div class="buinfo_right"><img src="../../image/pic_smaple-11.jpg" width="400" height="341" alt="*"></div>
+                 <br class="clean">
+               </div>
+               
+               <!-- 右側縮圖區塊 -->
+               <script src="../../scripts/jquery.tinyscrollbar.min.js"></script>
+			   <script>
+                  $(document).ready(function(){
+					   $('#scrollbar').tinyscrollbar();	
+					  });	
+               </script>
+               <div id="scrollbar" class="box_bar">
+                  <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+                  <div class="viewport">
+			           <div class="overview">
+                          
+                          
+                          <ul class="event_list">
+                          	<li class="eventin"><!-- 一個LI為一組縮圖,在該頁面時，要加註"eventin" -->
+                               <a href="event_2011-01.html" title="2013耕曦">
+                                 <div class="item_photo">
+                                   <img src="../../image/pic_smaple-08.jpg" width="90" height="68" alt="*"><!-- 尺寸固定 改路徑就好了-->
+                                 </div>
+                                 <div class="item_title">
+                                    <p>2013<br/><!-- 這邊縮圖標題的格式不固定，但有需要折行，你覺得該如何讓使用者輸入較好? -->
+                                       耕曦</p>
+                                 </div>
+                                 <br class="clean"/>
+                               </a>
+                            </li>
+                          </ul>
+                       
+                       
+                       </div>
+                  </div>      
+               </div>
+               <br class="clean"/>
+               
+             </div>
           </div> 
           
           <link rel="stylesheet" href="../../css/simptip-mini.css">

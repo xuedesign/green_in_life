@@ -50,16 +50,87 @@
       
       <!-- InstanceBeginEditable name="box_main" -->
       <section id="contenter" class="animated fadeInDown"> 
-          <div style=" display:block; width:954px; margin:0 auto"><!-- 頁面預覽 -->
-              <img src="../../image/pre_vesults01-02.jpg" alt="*" width="954" height="496" usemap="#Map">
-              <map name="Map">
-                <area shape="rect" coords="122,4,325,53" href="vesults-01.html">
-                <area shape="rect" coords="337,3,498,53" href="vesults-02.html">
-                <area shape="rect" coords="766,82,953,208" href="vesults-02.html">
-                <area shape="rect" coords="764,214,952,337" href="vesults-01.html">
-                <area shape="rect" coords="3,4,29,26" href="vesults-01.html">
-              </map> 
-          </div> 
+          <div id="page_main">
+             
+             <!-- 副選單列，一列最多顯示4個，超出的會被隱藏，但每按箭頭前進或後退，第一個選項要跟著變動 -->
+             <div class="sub_nav">
+                <a href="#" title="上一年度" class="btn_arror-l disabled">上一作品</a><!-- disabled代表不可使用之狀態 -->
+                <div class="box_nav">
+                  <a href="event_2011-01.html" title="2011">2009</a>
+                  <a href="event_2013-01.html" class="navin" title="2013">2013</a><!-- navin代表在目前單元 -->
+                </div>  
+                <a href="event_2012-01.html" title="下一年度" class="btn_arror-r disabled">下一作品</a>
+                <br class="clean" />
+             </div>
+             
+             <div id="page_content">
+             
+               <!-- 照片展示區塊 -->
+               <div class="box_photo">
+               
+                  <!-- 縮圖區 -->
+                  <script src="../../scripts/showpic.js"></script> 
+                  <div class="box_thumbs">
+                     <h3>建築規劃</h3><!-- 群組標題 -->
+                     <!-- 一頁預設10張照片 ，若上傳張數超過10張，下面會出現頁碼供切換-->
+                     <a href="../../image/pic_smaple-08.jpg"><img src="../../image/pic_smaple-08.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-09.jpg"><img src="../../image/pic_smaple-09.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-10.jpg"><img src="../../image/pic_smaple-10.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-08.jpg"><img src="../../image/pic_smaple-08.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-09.jpg"><img src="../../image/pic_smaple-09.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-10.jpg"><img src="../../image/pic_smaple-10.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-08.jpg"><img src="../../image/pic_smaple-08.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-09.jpg"><img src="../../image/pic_smaple-09.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-10.jpg"><img src="../../image/pic_smaple-10.jpg" title="照片名稱" /></a>
+                     <a href="../../image/pic_smaple-08.jpg"><img src="../../image/pic_smaple-08.jpg" title="照片名稱" /></a>
+                     
+                     <div class="page_number"><!-- 頁碼，當張數超過10張才會出現 -->
+                        <a href="#" title="第1頁" class="page_in">1</a>
+                        <a href="#" title="第2頁">2</a>
+                     </div>
+                  </div>
+                  
+                  <!-- 大圖區 ，建議寬度不超過566px-->
+                  <div class="box_showpic"><img id="show-image" src="../../image/pic_smaple-08.jpg" alt="*"/></div>
+                  <br class="clean"/>
+               </div>
+               
+               
+               <!-- 右側縮圖區塊 -->
+               <script src="../../scripts/jquery.tinyscrollbar.min.js"></script>
+			   <script>
+                  $(document).ready(function(){
+					   $('#scrollbar').tinyscrollbar();	
+					  });	
+               </script>
+               <div id="scrollbar" class="box_bar">
+                  <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+                  <div class="viewport">
+			           <div class="overview">
+                          
+                          
+                          <ul class="event_list">
+                          	<li class="eventin"><!-- 一個LI為一組縮圖,在該頁面時，要加註"eventin" -->
+                               <a href="event_2011-01.html" title="2013耕曦">
+                                 <div class="item_photo">
+                                   <img src="../../image/pic_smaple-08.jpg" width="90" height="68" alt="*"><!-- 尺寸固定 改路徑就好了-->
+                                 </div>
+                                 <div class="item_title">
+                                    <p>2013<br/><!-- 這邊縮圖標題的格式不固定，但有需要折行，你覺得該如何讓使用者輸入較好? -->
+                                       耕曦</p>
+                                 </div>
+                                 <br class="clean"/>
+                               </a>
+                            </li>
+                          </ul>
+                       
+                       
+                       </div>
+                  </div>      
+               </div>
+               <br class="clean"/>
+             </div>
+         </div> 
           
           <link rel="stylesheet" href="../../css/simptip-mini.css">
           <ul class="turn_page">
@@ -67,7 +138,7 @@
                  <a href="vesults-02.html" class="btn_page">基本資料</a></span>
              </li>
              <li><span class="simptip-position-top" data-tooltip="建築規劃">
-                 <a href="vesults-02-2.html" class="btn_page page_in">建築規劃</a></span>
+                 <a href="vesults-02-2.html" class="btn_page page_in">建築規劃</a></span><!-- 瀏覽本頁面時，class加註page_in -->
              </li>
              <li><span class="simptip-position-top" data-tooltip="銷售現場">
                  <a href="vesults-02-3.html" class="btn_page">銷售現場</a></span>
