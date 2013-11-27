@@ -50,15 +50,44 @@
       
       <!-- InstanceBeginEditable name="box_main" -->
       <section id="contenter" class="animated fadeInDown"> 
-          <div style=" display:block; width:954px; margin:0 auto"><!-- 頁面預覽 -->
-            <img src="../../image/pre_work01-04.jpg" alt="*" width="954" height="495" usemap="#Map">
-            <map name="Map">
-              <area shape="rect" coords="691,6,831,62" href="works-01.html">
-              <area shape="rect" coords="511,5,676,55" href="works-02.html">
-              <area shape="rect" coords="314,4,482,52" href="works-03.html">
-              <area shape="rect" coords="1,4,30,27" href="works-02.html">
-            </map> 
-         </div>
+          <div id="page_main">
+             
+             <!-- 副選單列，一列最多顯示4個，超出的會被隱藏，但每按箭頭前進或後退，第一個選項要跟著變動 -->
+             <div class="sub_nav">
+                <a href="#" title="上一個案" class="btn_arror-l">上一個案</a>
+                <div class="box_nav">
+                  <a href="#" title="大安區龍泉段">大安區龍泉段</a>
+                  <a href="#" title="大安區辛亥段">大安區辛亥段</a>
+                  <a href="#" title="松山區延吉段">松山區延吉段</a>
+                  <a href="works-01.html" class="navin" title="士林區三玉段">士林區三玉段</a><!-- navin代表在目前單元 -->
+                </div>  
+                <a href="event_2012-01.html" title="下一個案" class="btn_arror-r disabled">下一個案</a>
+                <br class="clean"/>
+             </div>
+             
+             <div id="page_content">
+                
+                <div class="box_work-04"><!-- 模組4；兩文 -->
+                   <h3>拆遷安置計畫</h3>
+                   <div class="work_info">
+                      <h4>一、法令依據</h4>
+                      <p>依都市更新條例第36條第2項<br/>
+「因權利變換而拆除或遷移之土地改良物，應補償其價值或建築物之殘餘價值，其補償金由實施者查定之，代為拆除或遷移費用在應領補償金額內扣回；…。」</p>
+                      <P>依臺北市都市更新自治條例第4條<br/>
+「…準用臺北市舉辦公共工程對合法建築及農作改良物拆遷補償暨違章建築處理有關規定之標準辦理。都市更新建設事業准由私人團體辦理時，其拆遷補償不得低於前項標準。」</P>
+                    </div>
+                   <div class="work_info-02">
+                      <h4>二、預定拆除時程</h4>
+                      <p>拆遷公告及通知<br/>
+實施者依據都市更新權利變換實施辦法第18、19條規定，於權利變換計畫核定發布日起10日內，以書面方式通知地上物之所有權人、管理人或使用者</p>
+                      <P>預定公告拆遷日<br/>
+依據都市更新權利變換實施辦法第19條規定，權利變換計畫公告期滿至預定公告拆遷日不得少於2個月。</P>
+                   </div>
+                   <br class="clean"/>
+                </div>
+                
+            </div>
+          </div>
          
          
          <link rel="stylesheet" href="../../css/simptip-mini.css">
@@ -74,12 +103,6 @@
              </li>
              <li><span class="simptip-position-top" data-tooltip="建築規劃設計">
                  <a href="works-01-4.html" class="btn_page page_in">建築規劃設計企業</a></span>
-             </li>
-             <li><span class="simptip-position-top" data-tooltip="財務計畫">
-                 <a href="works-01-5.html" class="btn_page">財務計畫</a></span>
-             </li>
-             <li><span class="simptip-position-top" data-tooltip="實施進度">
-                 <a href="works-01-6.html" class="btn_page">實施進度</a></span>
              </li>
           </ul>
       </section>
