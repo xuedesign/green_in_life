@@ -1,0 +1,107 @@
+/**********************************************************************************************
+
+	Title: CSS for 8-way
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2013 / 11   
+
+***********************************************************************************************
+		1 通用
+		2.登入頁		
+***********************************************************************************************/
+
+/* 1. 通用 
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+body{
+	background:#95d0c0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#1b1b1b}
+a:link {text-decoration:underline; color:#00adee}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/* 2. 登入頁  
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#wrap{ display:block; width:362px; margin:45px auto 0 auto}
+h1,	.box_login{ display:block; width:361px}
+h1{	height:169px; background:url(../image/logo.png) no-repeat; text-indent:-9999px}
+.box_login{
+	padding:22px 0 0 0;
+	height:230px;
+	margin:29px auto 15px auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 0 9px #79B8A7;
+	-moz-box-shadow: 0 0 9px #79B8A7;
+	-o-box-shadow: 0 0 9px #79B8A7;
+	-ms-box-shadow: 0 0 9px #79B8A7;
+	box-shadow: 0 0 9px #79B8A7;
+	background: url(../image/bg_login.png) no-repeat #FFF}
+.box_login h2{
+	display:block;
+	width:127px;
+	height:16px;
+	background:url(../image/title_login.png) no-repeat;
+	text-indent:-9999px;
+	margin:0 auto}
+.text_area{
+	display:block;
+	width:300px;
+	margin:18px auto 0 auto;
+	padding:10px;
+	border:1px solid #a1884d;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px}
+.text_member{
+	display:block;
+	background:url(../image/textarea_login.png) no-repeat;
+	width:301px;
+	height:96px;
+	margin:22px auto 0 auto}
+.btn_login{
+	display:block;
+	width:149px;
+	height:40px;
+	margin:29px auto 20px auto;
+	background:url(../image/btn_login.png) no-repeat;
+	border:none;
+	cursor:pointer;
+	font-size:0.813em;
+	color:#FFF;
+	text-align:center;
+	letter-spacing:2px}	
+.btn_login:hover{ background:url(../image/btn_login.png) 0 -40px no-repeat}
+.text_input{
+	display:block;
+	width:220px;
+	margin-left:10px;
+	font-size:0.813em;
+	line-height:22px;
+	background:none;
+	padding:5px 8px;
+	border:none}
+#acct{ padding-top:15px; margin-bottom:22px}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+#acct{ padding-top:15px; margin-bottom:15px; background:none}}
+		
+.copyright{
+	display:block; width:50%;
+	margin:0 auto;
+	font-size:0.813em; 
+	line-height:22px; 
+	text-align:center}
+.placeholderColor{ color:#A9A9A9; color:#A9A9A9 !important; }		

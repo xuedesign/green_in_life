@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<meta name="description" content="耕薪建築團隊成立於2006年，為專營「都市更新」的建設品牌。6年來深耕臺北市核心住宅區(大安區、中正區、中山區、松山區、信義區)，以長年建設經驗為基底，承襲股東的服務精緻，結合跨界品牌資源優勢，以客戶真實需求出發，提供「客製服務」，目前服務地主已超過千人，合作客戶更達百人以上。"/>
+<meta name="keywords" content="企業管理、專案管理、建築、地政、都市計劃、土木、不動產估價、建築經理、建設公司、都市更新顧問"/>
+<meta name="Author" content="xuedesign studio" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<title>::耕薪都市更新後端管理系統::</title>
+<link rel="stylesheet" href="../css/reset.css" />
+<link rel="stylesheet" href="../css/xuelogin_201312.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="../scripts/placeholder.js"></script>
+<script>
+$(function(){
+		$('input[placeholder]').placeholder();
+	});
+</script>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+   <div id="wrap">
+      <h1>耕薪都市更新</h1>
+      <div class="box_login">
+         <h2>後端管理系統</h2>
+         
+         <form name="form" action="login_check.php" method="POST" onsubmit="return formCheck();">
+            <div class="text_member">
+               <input id="acct" name="acct" type="text" class="text_input" placeholder="請輸入管理者帳號">
+               <input id="pass" name="pass" type="password" class="text_input" placeholder="請輸入管理者密碼">
+            </div>
+            <input type="submit" name="loginSubmit" class="btn_login" value="登入">
+        </form>
+        <script>
+		  function formCheck() {       
+			var acct = document.getElementById("acct");
+			var pass = document.getElementById("pass");    
+			if ( acct.value === '' ) {
+			  alert("請填寫帳號");
+			  return false;
+			}    
+			if ( pass.value === '' ) {
+			  alert("請填寫密碼");
+			  return false;
+			}    
+			var regExp1 = /select|update|delete|exec|count|`|'|"|=|;|>|<|%/i;
+			var regExp2 = /^[\d|a-zA-Z]+$/;     
+			if ( re.test(acct.value) ) {
+			  alert('帳號輸入錯誤');
+			  return false;
+			}    
+			if ( re.test(pass.value) ) {
+			  alert('密碼輸入錯誤');
+			  return false;
+			}    
+		  }
+	    </script>
+        
+      </div>
+   </div>
+   <p class="copyright">&copy;2013 耕薪都市更新股份有限公司 版權所有</p>
+ 
+</body>
+</html>
