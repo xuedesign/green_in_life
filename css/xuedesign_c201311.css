@@ -159,11 +159,11 @@ footer{
 	display:block;
 	width:288px;
 	background:#96d0c1;
-	margin-bottom:30px;
 	padding:20px 0}
 .contact_form{
 	display:block;
-	width:288px}
+	width:288px;
+	margin-bottom:30px}
 .custome_login h3, .contact_form h3{
 	display:block;
 	width:288px;
