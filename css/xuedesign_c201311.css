@@ -221,18 +221,30 @@ footer{
 .contant_right li h4{ font-size:0.938em; color:#999; padding-bottom:5px}
 .contant_right li p{ font-size:0.813em; line-height:22px}
 
-/*3.2 客戶專區---------------------------*/	
-.contant_right-02 .btn_vcr{
+/*3.2 客戶專區---------------------------*/
+.contant_right-02 .title_vcr{
 	display:block;
 	width:290px;
+	background:#fff;
+	font-size:0.938em;
+	font-weight:bold;
+	line-height:28px;
+	text-align:left;
+	color:#96d0c1}	
+.contant_right-02 .btn_vcr{
+	display: inline-block;
+	width:30px;
+	height:30px;
 	background:#96d0c1;
 	font-size:0.813em;
 	line-height:28px;
 	text-align:center;
 	color:#FFF;
 	text-decoration:none;
-	margin-bottom:25px}
+	margin:15px 8px 15px 0}
 .contant_right-02 .btn_vcr:hover{ background:#595758; color:#96d0c1}
+.contant_right-02 .map_vcr{ display:block; width:288px; margin-bottom:15px}
+
 .info_pay{ 
     display:block;
 	width:258px;
@@ -256,7 +268,7 @@ footer{
 	display:block;
 	width:520px;
 	background:#96d0c1;
-	font-size:0.813em;
+	font-size:0.938em;
 	line-height:28px;
 	text-align:center;
 	color:#FFF;
@@ -502,12 +514,12 @@ footer{
 	padding-bottom:15px}	
 .box_thumbs a{
 	display:inline-block;
-	width:46px;
-	height:46px;
-	margin:0 3px 15px 3px}
+	width:50px/*46px*/;
+	height:37px/*46px*/;
+	margin:0 1px 15px 1px}
 .box_thumbs a img{
-	width:42px;
-	height:42px;
+	width:46px/*42px*/;
+	height:34px/*42px*/;
 	vertical-align:middle;
 	padding:1px;
 	border:1px solid #ccc}
@@ -515,7 +527,7 @@ footer{
 .page_number{
 	display:block;
 	position:absolute;
-	top:400px;
+	top:330px/*400px*/;
 	left:0;
     width:104px;
 	padding-left:5px}
